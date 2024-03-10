@@ -162,6 +162,7 @@ ul {
 
 .widget > button {
   border: none;
+  margin: 0 10px;
   border-radius: 8px;
   width: 148px;
   height: 40px;
