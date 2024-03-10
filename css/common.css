@@ -136,3 +136,7 @@ ul {
   letter-spacing: 0.04em;
   color: #fff;
 }
+
+.login-form > button:hover {
+  background: #6c8cff;
+}
