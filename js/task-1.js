@@ -11,9 +11,3 @@ function showElementsInfo(category) {
   console.log(`Category: ${categoryName}`);
   console.log(`Elements: ${categoryElem}`);
 }
-
-// elements.classList.add(list);
-// elements.style.border = '1px solid #808080';
-// elements.style.borderRadius = '4px';
-// elements.style.width = '360px';
-// elements.style.height = '40px';
