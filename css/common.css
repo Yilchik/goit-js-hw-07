@@ -67,3 +67,14 @@ ul {
   color: #2e2f42;
   padding: 8px;
 }
+
+/* Task-2 */
+.gallery {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  background: #fff;
+  gap: 24px;
+  padding: 100px 156px;
+}
