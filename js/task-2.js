@@ -19,6 +19,8 @@ images.forEach(img => {
   const imgElem = document.createElement('img');
   imgElem.src = img.url;
   imgElem.alt = img.alt;
+  imgElem.style.maxWidth = '100%';
+  imgElem.style.objectFit = 'contain';
   listImg.append(imgElem);
   galleryList.append(listImg);
   console.log(galleryList);

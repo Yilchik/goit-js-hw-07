@@ -13,7 +13,7 @@ function showElementsInfo(category) {
 }
 
 // elements.classList.add(list);
-// elements.style.list.border = '1px solid #808080';
-// elements.style.list.borderRadius = '4px';
-// elements.style.list.width = '360px';
-// elements.style.list.height = '40px';
+// elements.style.border = '1px solid #808080';
+// elements.style.borderRadius = '4px';
+// elements.style.width = '360px';
+// elements.style.height = '40px';
