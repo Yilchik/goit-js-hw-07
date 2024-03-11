@@ -193,7 +193,7 @@ ul {
 #controls > input {
   border: 1px solid #808080;
   border-radius: 8px;
-  padding: 8px 72px;
+  padding: 8px 60px;
   width: 150px;
   height: 40px;
   font-family: 'Montserrat', sans-serif;
@@ -202,6 +202,13 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #2e2f42;
+  text-align: center;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
 }
 
 .create {
@@ -244,6 +251,9 @@ ul {
 }
 
 #boxes {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
   margin-top: 16px;
   border-radius: 8px;
   padding: 32px;
