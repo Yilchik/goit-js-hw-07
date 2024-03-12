@@ -14,7 +14,8 @@ const images = [
 ];
 
 const galleryList = document.querySelector('.gallery');
-images.map(img => {
+
+const makeElement = images.map(img => {
   const listImg = document.createElement('li');
   const imgElem = document.createElement('img');
   imgElem.src = img.url;
@@ -22,6 +23,9 @@ images.map(img => {
   imgElem.style.maxWidth = '100%';
   imgElem.style.objectFit = 'contain';
   listImg.append(imgElem);
-  galleryList.append(listImg);
-  console.log(galleryList);
+  return listImg;
 });
+
+galleryList.append(...makeElement);
+
+console.log(galleryList);
